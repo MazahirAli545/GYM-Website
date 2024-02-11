@@ -106,6 +106,9 @@ img {
 
 .section {
   padding: 4.5rem 0 2rem;
+  display: flex;
+  justify-content: center;
+    width: 100%;
 }
 
 .section__data {
@@ -605,9 +608,11 @@ transition: background .3s;
 }
 
 .pricing__card-active{
+    color: black !important;
     background-color: var(--first-color);
     border: 2px solid var(--first-color-light);
 }
+
 
 .pricing__card-active .pricing__shape{
     background-color: var(--first-color-light);
